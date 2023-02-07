@@ -1,0 +1,36 @@
+.footer-social {
+    margin-left: 83px;
+    margin-top: 10px;
+}
+
+.footer-social__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: $whiteExtraColor;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.social-links__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-links__link {
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    @include transition(background-color);
+
+    &:hover {
+        background-color: $accentColor;
+    }
+}

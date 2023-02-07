@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: $secondTextColor;
+    font-family: $secondaryFont;
+    font-family: $mainFont;
+    letter-spacing: 0.03em;
+}
+
